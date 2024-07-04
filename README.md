@@ -1,2 +1,5 @@
 # Programadoras--Trabajo
-Nuestro proyecto se va a tratar de mujeres en programación: Proporcionar un espacio seguro y colaborativo donde las mujeres profesionales puedan establecer conexiones significativas y acceder a oportunidades.
+Elegimos crear este sitio web porque reconocemos la necesidad de proporcionar un espacio seguro y colaborativo donde las mujeres profesionales puedan conectarse, y apoyarse en el desarrollo profesional y la igualdad de género en estos entornos.
+
+Para contribuir a mejorar ese problema, ideamos la siguiente solución:
+Proporcionamos un espacio colaborativo donde las mujeres profesionales de diversas industrias y distintos niveles de experiencia puedan establecer conexiones significativas, acceder a oportunidades laborales, participar en eventes de networking, mentorias y recursos para su desarrollo profesional y personal.
