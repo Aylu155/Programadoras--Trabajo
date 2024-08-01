@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    color: #111112; /* color de texto */
+    background-color: #e6d7f3; /* color de fondo */
+    text-align: center; /* centra el contenido en la página */
+    font-family:'Times New Roman', Times, serif;
+}
+.titulo{
+    color: #111112;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px; 
+    background-image: url(portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.nav{
+    text-align: right;
+    padding: 40px 70px 0 0;
+    
+}
+
+nav > a{
+    color: #f1f0f2;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.textos-header{
+    font-size: 50px;
+    color: #e2e0e6;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #250343;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor-Mentoria {
+    display: flex; /* alinear elementos */
+    align-items: center; /* centrar verticalmente los elementos */
+    background-color: #e6d7f3;
+}
+
+.contenedor-texto-imagen {
+    flex: 1; /*el contenedor ocupe el espacio restante */
+    margin-right: 20px; /* agregar margen a la derecha para separar la imagen del texto */
+}
+.contenedor-Mentoria img {
+    max-width: 25%; /*imagen no exceda el ancho del contenedor */
+    height: 30 px; /* la altura se ajuste automáticamente para mantener la proporcion original de la imagen */
+}
+
+
+.menu {
+    margin-bottom: 20px; 
+}
+.menu-btn {
+    background-color: #f6f6f9; /* color de fondo para los botones */
+    color: #210339; /* color del texto en los botones */
+    padding: 10px 20px; /* relleno alrededor del texto en los botones */
+    border: none; /* sacar el borde de los botones */
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.menu-content {
+    display: none; /* ocultar el contenido de los módulos por defecto */
+    padding: 10px; /* agregar relleno al contenido de los módulos */
+}
+.menu:hover .menu-content {
+    display:block; /* mostrar el contenido cuando se pasa sobre el módulo */
+}
+
+
+.Juegos .card{
+    flex: 0 0 45%; 
+    margin-bottom: 20px;
+    background-color: #c997ed; 
+    color: #000000; 
+    margin-bottom: 20px; 
+    font-family: sans-serif;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(77, 44, 154, 0.929); /* Apply a subtle box shadow */
+    text-align: center; 
+}
+.Juegos .card .card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+.Juegos .btn-transparente {
+    text-decoration: none; 
+    font-weight: 600; 
+    font-size: 20px; 
+    color: #ffffff;
+    padding: 10px 20px; 
+    background-color: transparent; 
+    border: 2px solid #d7a0e1;
+    border-radius: 5px;
+}
+.Juegos {
+    display: flex; 
+    justify-content: space-between;
+}
+
+p{
+    font-size: 15px; 
+    margin-bottom: 20px; 
+}
+.contenedor{
+    background-color: #c997ed; 
+    color: #000000; 
+    margin-bottom: 20px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(20, 1, 66, 0.929); 
+    text-align: center; 
+}
+
+.disponible {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las tarjetas pasen a la línea siguiente si no hay suficiente espacio */
+    justify-content: space-around; /* Distribuir las tarjetas con un espacio equitativo alrededor de ellas */
+    align-items: center; /* Centrar los elementos verticalmente */
+}
+
+.disponible .card {
+    flex: 0 0 calc(45% - 20px); /* Ajustar el ancho de las tarjetas para permitir el margen */
+    margin-bottom: 20px;
+    background-color: #c997ed;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(77, 44, 154, 0.929);
+    text-align: center;
+}
+
+.disponible .card-body {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2b043d;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #d7a0e1;
+    border-radius: 5px;
+}

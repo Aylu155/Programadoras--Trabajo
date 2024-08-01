@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+}
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
