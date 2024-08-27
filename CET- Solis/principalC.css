@@ -5,13 +5,13 @@
 
 body {
     margin: 0;
-    color: #111112; /* color de texto */
-    background-color: #e6d7f3; /* color de fondo */
+    color: #ffffff; /* color de texto */
+    background-color: #170045; /* color de fondo */
     text-align: center; /* centra el contenido en la página */
     font-family:'Times New Roman', Times, serif;
 }
 .titulo{
-    color: #111112;
+    color: #ededfa;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -76,6 +76,7 @@ header .textos-header{
 
 .contenido-textos h3{
     margin-bottom: 15px;
+    color: #f1f0f2;
 }
 
 .contenido-textos p{
@@ -87,7 +88,7 @@ header .textos-header{
 .contenedor-Mentoria {
     display: flex; /* alinear elementos */
     align-items: center; /* centrar verticalmente los elementos */
-    background-color: #e6d7f3;
+    background-color:  #170045;
 }
 
 .contenedor-texto-imagen {
@@ -95,13 +96,16 @@ header .textos-header{
     margin-right: 20px; /* agregar margen a la derecha para separar la imagen del texto */
 }
 .contenedor-Mentoria img {
-    max-width: 25%; /*imagen no exceda el ancho del contenedor */
-    height: 30 px; /* la altura se ajuste automáticamente para mantener la proporcion original de la imagen */
+    max-width: 35%; /*imagen no exceda el ancho del contenedor */
+    height: 100%; /* la altura se ajuste automáticamente para mantener la proporcion original de la imagen */
 }
 
 
 .menu {
     margin-bottom: 20px; 
+}
+.menu a{
+    color: #ededfa;
 }
 .menu-btn {
     background-color: #f6f6f9; /* color de fondo para los botones */
@@ -119,21 +123,25 @@ header .textos-header{
     display:block; /* mostrar el contenido cuando se pasa sobre el módulo */
 }
 
+.Juegos a{
+    color: #fbf9fc;
+}
 
 .Juegos .card{
     flex: 0 0 45%; 
     margin-bottom: 20px;
-    background-color: #c997ed; 
-    color: #000000; 
+    background-color: transparent; 
+    color: #fbf9fc; 
     margin-bottom: 20px; 
     font-family: sans-serif;
     padding: 20px;
-    box-shadow: 0px 0px 20px rgba(77, 44, 154, 0.929); /* Apply a subtle box shadow */
+    box-shadow: 0px 0px 20px; 
     text-align: center; 
+    background:#4f09b0 ;
 }
 .Juegos .card .card-img-top {
     max-width: 100%;
-    height: auto;
+    height: 80%;
 }
 .Juegos .btn-transparente {
     text-decoration: none; 
@@ -155,8 +163,8 @@ p{
     margin-bottom: 20px; 
 }
 .contenedor{
-    background-color: #c997ed; 
-    color: #000000; 
+    background-color:  #3f2a67; 
+    color: #f7f7f7; 
     margin-bottom: 20px; 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
@@ -174,11 +182,10 @@ p{
 .disponible .card {
     flex: 0 0 calc(45% - 20px); /* Ajustar el ancho de las tarjetas para permitir el margen */
     margin-bottom: 20px;
-    background-color: #c997ed;
-    color: #000000;
+    background-color:  #3f2a67;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
-    box-shadow: 0px 0px 20px rgba(77, 44, 154, 0.929);
+    box-shadow: 0px 0px 45px rgba(243, 242, 244, 0.929);
     text-align: center;
 }
 

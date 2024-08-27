@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background:#170045;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar{
+    display: flex;
+    margin-right: 10%;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 63px;
+
+
+}
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #2e0b97;
+}
+
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    height: 70vh !important;
+    background-image: url(img/fondo.png);
+    background-size: cover;
+}
+
+.content-header p{
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(252, 255, 255);
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ff5fcc;
+    color: aliceblue;
+    text-decoration: none;
+    background: #210076;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-home a{
+    margin:  0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    text-decoration: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-idk {
+    padding: 30px;
+    background-color: #170045;
+    color: rgb(255, 255, 255);
+
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    border-radius: 1rem;
+    box-shadow:#7e6995a3 ;
+}
+
+/* card*/
+.card {
+    background-color: transparent;
+    color: #fbf9fcc9; 
+    margin-bottom: 20px; 
+    font-family: sans-serif;
+    padding: 20px 0;
+    margin: 10px;
+    box-shadow: 0px 0px 45px;
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    background: #4f09b0;
+}
+
+.card-img-top {
+    max-width: 100px;
+    height: auto;
+}
+.content-about{
+    padding: 30px;
+    background-color: #3f2a67;
+}
+.content-book{
+    padding: 30px;
+    background-color: #170045;
+}
+.content-contact{
+    padding: 30px;
+    background-color: #3f2a67;
+}
+
+
+/*card2 */
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.card2 {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card2 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.card2 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card2 .front h3 {
+    position: absolute;
+    bottom: 100%;
+    width: 45%;
+    line-height: 45px;
+    color: aliceblue;
+    text-align: center;
+}
+.card2 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #4f09b0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #4d0054;
+}
+
+.card2 .back .link {
+    border-top: solid 1px #fbf9fc;
+    height: 50px;
+    line-height: 50px;
+}
+.card2 .back .link a{
+    color: #fbf9fc;
+}
+.card2 .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: #f6f2f2;
+}
+
+.card2 .back p{
+    letter-spacing: 1px;
+}
+
+.card2:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card2:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
