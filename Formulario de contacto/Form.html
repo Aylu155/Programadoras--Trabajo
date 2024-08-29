@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Avanzado</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div class="container">
+        <form id="advancedForm" onsubmit="return validateForm()">
+            <h2>Formulario de Registro</h2>
+            
+            <div class="input-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="phone">Número de Teléfono:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" required min="0">
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="Form.js"></script>
+</body>
+</html>
