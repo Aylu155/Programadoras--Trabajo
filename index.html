@@ -20,6 +20,7 @@
                 <a href="#idk">Mentorias</a>
                 <a href="#book">Libros</a>
                 <a href="CET- Solis/formulario/form.html">Registro</a>
+                <a href="#contact">Contacto</a>
             </div>
         </div>
         <header class="content-header" id="header">
@@ -163,8 +164,41 @@
         </section>
         <section class="content-contact">
             <h2 class="title">Contacto</h2>
-            <p>456664447</p>
+            <form id="advancedForm" onsubmit="return validateForm()">
+                <h2>Formulario de Contacto</h2>
+                
+                <div class="input-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="phone">Número de Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="age">Edad:</label>
+                    <input type="number" id="age" name="age" required min="0">
+                </div>
+
+                <div class="input-group" style="background-color: #170045;">
+                    <label for="exampleFormControlTextarea1" class="form-label">Motivo</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" cols="155"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <script src="Form.js"></script>
         </section>
+        <footer>
+            <p>&copy; 2024 FemmeNet. Todos los derechos reservados.</p>
+        </footer>
     </body>
 
 </html>

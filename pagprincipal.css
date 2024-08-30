@@ -242,3 +242,74 @@ p{
 .card2:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
+
+/*registro*/
+.content-contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e0b3ff;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0b3ff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="number"] {
+    background-color: #170045;
+    color: #ffffff;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="tel"]:focus, 
+input[type="number"]:focus {
+    outline: none;
+    background-color: #170045;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #170045;
+    color: #f3f1f4;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #170045
+}
+
+button:active {
+    background-color: #3f2a67;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #170045;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

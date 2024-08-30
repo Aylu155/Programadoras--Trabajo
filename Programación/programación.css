@@ -46,7 +46,7 @@ nav ul li a:hover {
     background-color: #926eb6;
 }
 
-section {
+.content-contact section {
     padding: 40px 20px;
     margin: 20px;
     background: #fff;
@@ -54,7 +54,7 @@ section {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+.content-contact section h2 {
     margin-top: 0;
     color: #bba9cf;
     font-size: 2em;
